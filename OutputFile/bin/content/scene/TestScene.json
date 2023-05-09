@@ -1,0 +1,239 @@
+{
+   "Layer0Info" : {
+      "Name" : "Default",
+      "ObjCount" : 5,
+      "Object0" : {
+         "ChildCount" : 0,
+         "ObjectInfo" : {
+            "Active" : true,
+            "CAMERA" : {
+               "CameraIndex" : -1,
+               "FOV" : 0.78539818525314331,
+               "Far" : 100000.0,
+               "LayerMask" : 4294967295,
+               "ProjType" : 1,
+               "Width" : 1600.0
+            },
+            "Component" : [ "TRANSFORM", "CAMERA" ],
+            "Name" : "MainCamera",
+            "TRANSFORM" : {
+               "IsIgnoreParentScale" : false,
+               "IsIgnoreParentTransform" : false,
+               "RelativePos" : [ 0.0, 0.0, 0.0 ],
+               "RelativeRotation" : [ 0.0, 0.0, 0.0 ],
+               "RelativeScale" : [ 1.0, 1.0, 1.0 ]
+            }
+         },
+         "ScriptCount" : 1,
+         "ScriptName" : [ "CCameraMoveScript" ]
+      },
+      "Object1" : {
+         "ChildCount" : 0,
+         "ObjectInfo" : {
+            "Active" : true,
+            "Component" : [ "TRANSFORM", "LIGHT3D" ],
+            "LIGHT3D" : {
+               "Amb" : [ 0.10000000149011612, 0.10000000149011612, 0.10000000149011612, 0.0 ],
+               "Angle" : 0.0,
+               "Diff" : [ 1.0, 1.0, 1.0, 0.0 ],
+               "LightDir" : [ 1.0, 0.0, 0.0 ],
+               "LightMtrl" : {
+                  "IsNull" : false,
+                  "Key" : "material\\DirLightMtrl.mtrl",
+                  "Path" : "material\\DirLightMtrl.mtrl"
+               },
+               "LightType" : 0,
+               "Range" : 20000.0,
+               "Spec" : [ 0.15000000596046448, 0.15000000596046448, 0.15000000596046448, 0.0 ],
+               "VolumeMesh" : {
+                  "IsNull" : false,
+                  "Key" : "RectMesh",
+                  "Path" : "RectMesh"
+               },
+               "WorldPos" : [ 0.0, 0.0, 0.0 ]
+            },
+            "Name" : "Directional Light",
+            "TRANSFORM" : {
+               "IsIgnoreParentScale" : false,
+               "IsIgnoreParentTransform" : false,
+               "RelativePos" : [ -1000.0, 1000.0, 0.0 ],
+               "RelativeRotation" : [ 0.0, 1.5707963705062866, 0.0 ],
+               "RelativeScale" : [ 40000.0, 40000.0, 40000.0 ]
+            }
+         },
+         "ScriptCount" : 0,
+         "ScriptName" : null
+      },
+      "Object2" : {
+         "ChildCount" : 0,
+         "ObjectInfo" : {
+            "Active" : true,
+            "Component" : [ "TRANSFORM", "SKYBOX" ],
+            "Name" : "SkyBox",
+            "SKYBOX" : {
+               "Type" : 1
+            },
+            "TRANSFORM" : {
+               "IsIgnoreParentScale" : false,
+               "IsIgnoreParentTransform" : false,
+               "RelativePos" : [ 0.0, 0.0, 0.0 ],
+               "RelativeRotation" : [ 0.0, 0.0, 0.0 ],
+               "RelativeScale" : [ 100.0, 100.0, 100.0 ]
+            }
+         },
+         "ScriptCount" : 0,
+         "ScriptName" : null
+      },
+      "Object3" : {
+         "ChildCount" : 0,
+         "ObjectInfo" : {
+            "Active" : true,
+            "Component" : [ "TRANSFORM", "MESHRENDER" ],
+            "MESHRENDER" : {
+               "DynamicShadow" : false,
+               "FrustumCulling" : false,
+               "Materail0" : {
+                  "IsNull" : false,
+                  "Key" : "material\\PostProcessMtrl.mtrl",
+                  "Path" : "material\\PostProcessMtrl.mtrl"
+               },
+               "Mesh" : {
+                  "IsNull" : false,
+                  "Key" : "RectMesh",
+                  "Path" : "RectMesh"
+               },
+               "MtrlCount" : 1
+            },
+            "Name" : "DOF",
+            "TRANSFORM" : {
+               "IsIgnoreParentScale" : false,
+               "IsIgnoreParentTransform" : false,
+               "RelativePos" : [ 0.0, 0.0, 100000.0 ],
+               "RelativeRotation" : [ 0.0, 0.0, 0.0 ],
+               "RelativeScale" : [ 0.0, 0.0, 1.0 ]
+            }
+         },
+         "ScriptCount" : 0,
+         "ScriptName" : null
+      },
+      "Object4" : {
+         "ChildCount" : 0,
+         "ObjectInfo" : {
+            "Active" : true,
+            "Component" : [ "TRANSFORM", "MESHRENDER" ],
+            "MESHRENDER" : {
+               "DynamicShadow" : false,
+               "FrustumCulling" : false,
+               "Materail0" : {
+                  "IsNull" : false,
+                  "Key" : "material\\BloodScreenMtrl.mtrl",
+                  "Path" : "material\\BloodScreenMtrl.mtrl"
+               },
+               "Mesh" : {
+                  "IsNull" : false,
+                  "Key" : "RectMesh",
+                  "Path" : "RectMesh"
+               },
+               "MtrlCount" : 1
+            },
+            "Name" : "BloodScreen",
+            "TRANSFORM" : {
+               "IsIgnoreParentScale" : false,
+               "IsIgnoreParentTransform" : false,
+               "RelativePos" : [ 0.0, 0.0, 10000.0 ],
+               "RelativeRotation" : [ 0.0, 0.0, 0.0 ],
+               "RelativeScale" : [ 0.0, 0.0, 1.0 ]
+            }
+         },
+         "ScriptCount" : 1,
+         "ScriptName" : [ "CBloodScreenScript" ]
+      }
+   },
+   "Layer1Info" : {
+      "Name" : "LandScape",
+      "ObjCount" : 1,
+      "Object0" : {
+         "ChildCount" : 0,
+         "ObjectInfo" : {
+            "Active" : true,
+            "Component" : [ "TRANSFORM", "LANDSCAPE" ],
+            "LANDSCAPE" : {
+               "BrushArrTex" : {
+                  "IsNull" : false,
+                  "Key" : "BrushTex",
+                  "Path" : "texture\\brush\\BrushArr.dds"
+               },
+               "HeightMap" : {
+                  "IsNull" : false,
+                  "Key" : "HeightMap",
+                  "Path" : "HeightMap"
+               },
+               "Material" : {
+                  "IsNull" : false,
+                  "Key" : "material\\LandScapeMtrl.mtrl",
+                  "Path" : "material\\LandScapeMtrl.mtrl"
+               },
+               "Mesh" : {
+                  "IsNull" : false,
+                  "Key" : "LandscapeMesh",
+                  "Path" : "LandscapeMesh"
+               },
+               "PreviewTex" : {
+                  "IsNull" : false,
+                  "Key" : "PreviewMap",
+                  "Path" : "PreviewMap"
+               },
+               "TileArrTex" : {
+                  "IsNull" : false,
+                  "Key" : "texture\\tile\\TILE_ARR.dds",
+                  "Path" : "texture\\tile\\TILE_ARR.dds"
+               },
+               "WeightTex" : {
+                  "IsNull" : false,
+                  "Key" : "WeightMap",
+                  "Path" : "WeightMap"
+               },
+               "WeightWidth" : 1024,
+               "XFaceCount" : 32,
+               "ZFaceCount" : 32,
+               "iWeightHeight" : 1024
+            },
+            "Name" : "LandScape",
+            "TRANSFORM" : {
+               "IsIgnoreParentScale" : false,
+               "IsIgnoreParentTransform" : false,
+               "RelativePos" : [ 0.0, 0.0, 0.0 ],
+               "RelativeRotation" : [ 0.0, 0.0, 0.0 ],
+               "RelativeScale" : [ 500.0, 500.0, 500.0 ]
+            }
+         },
+         "ScriptCount" : 0,
+         "ScriptName" : null
+      }
+   },
+   "Layer2Info" : {
+      "Name" : "Player",
+      "ObjCount" : 0
+   },
+   "Layer3Info" : {
+      "Name" : "P_Collider",
+      "ObjCount" : 0
+   },
+   "Layer4Info" : {
+      "Name" : "Monster",
+      "ObjCount" : 0
+   },
+   "Layer5Info" : {
+      "Name" : "M_Collider",
+      "ObjCount" : 0
+   },
+   "Layer6Info" : {
+      "Name" : "Object",
+      "ObjCount" : 0
+   },
+   "Layer7Info" : {
+      "Name" : "MonAtkCollision",
+      "ObjCount" : 0
+   },
+   "Name" : ""
+}

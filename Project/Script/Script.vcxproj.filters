@@ -1,0 +1,490 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>Default</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>Default</Filter>
+    </ClInclude>
+    <ClInclude Include="CScriptMgr.h" />
+    <ClInclude Include="CCameraMoveScript.h">
+      <Filter>Script</Filter>
+    </ClInclude>
+    <ClInclude Include="CMissileScript.h">
+      <Filter>Script</Filter>
+    </ClInclude>
+    <ClInclude Include="CSceneSaveLoad.h" />
+    <ClInclude Include="CPlayerScript.h">
+      <Filter>Script\PlayerScript</Filter>
+    </ClInclude>
+    <ClInclude Include="CPlayerIdle.h">
+      <Filter>Script\PlayerScript</Filter>
+    </ClInclude>
+    <ClInclude Include="CPlayerMove.h">
+      <Filter>Script\PlayerScript</Filter>
+    </ClInclude>
+    <ClInclude Include="CPlayerRoll.h">
+      <Filter>Script\PlayerScript</Filter>
+    </ClInclude>
+    <ClInclude Include="CPlayerJump.h">
+      <Filter>Script\PlayerScript</Filter>
+    </ClInclude>
+    <ClInclude Include="CPlayerSkill.h">
+      <Filter>Script\PlayerScript</Filter>
+    </ClInclude>
+    <ClInclude Include="CPlayerFire.h">
+      <Filter>Script\PlayerScript</Filter>
+    </ClInclude>
+    <ClInclude Include="CPlayerRun.h">
+      <Filter>Script\PlayerScript</Filter>
+    </ClInclude>
+    <ClInclude Include="CImpScript.h">
+      <Filter>Script\ImpScript</Filter>
+    </ClInclude>
+    <ClInclude Include="CLemurianScript.h">
+      <Filter>Script\LemurianScript</Filter>
+    </ClInclude>
+    <ClInclude Include="CImpSpawn.h">
+      <Filter>Script\ImpScript</Filter>
+    </ClInclude>
+    <ClInclude Include="CImpAttack.h">
+      <Filter>Script\ImpScript</Filter>
+    </ClInclude>
+    <ClInclude Include="CImpDeath.h">
+      <Filter>Script\ImpScript</Filter>
+    </ClInclude>
+    <ClInclude Include="CImpHurt.h">
+      <Filter>Script\ImpScript</Filter>
+    </ClInclude>
+    <ClInclude Include="CImpIdle.h">
+      <Filter>Script\ImpScript</Filter>
+    </ClInclude>
+    <ClInclude Include="CImpRun.h">
+      <Filter>Script\ImpScript</Filter>
+    </ClInclude>
+    <ClInclude Include="CLemurianDeath.h">
+      <Filter>Script\LemurianScript</Filter>
+    </ClInclude>
+    <ClInclude Include="CLemurianHurt.h">
+      <Filter>Script\LemurianScript</Filter>
+    </ClInclude>
+    <ClInclude Include="CLemurianIdle.h">
+      <Filter>Script\LemurianScript</Filter>
+    </ClInclude>
+    <ClInclude Include="CLemurianRun.h">
+      <Filter>Script\LemurianScript</Filter>
+    </ClInclude>
+    <ClInclude Include="CLemurianFireball.h">
+      <Filter>Script\LemurianScript</Filter>
+    </ClInclude>
+    <ClInclude Include="CLemurianSpawn.h">
+      <Filter>Script\LemurianScript</Filter>
+    </ClInclude>
+    <ClInclude Include="CLemurianPre.h">
+      <Filter>Script\LemurianScript</Filter>
+    </ClInclude>
+    <ClInclude Include="CJellyFishSpawn.h">
+      <Filter>Script\JellyFishScript</Filter>
+    </ClInclude>
+    <ClInclude Include="CJellyFishIdle.h">
+      <Filter>Script\JellyFishScript</Filter>
+    </ClInclude>
+    <ClInclude Include="CJellyFishScript.h">
+      <Filter>Script\JellyFishScript</Filter>
+    </ClInclude>
+    <ClInclude Include="CGigantScript.h">
+      <Filter>Script\GigantScript</Filter>
+    </ClInclude>
+    <ClInclude Include="CGigantAttack.h">
+      <Filter>Script\GigantScript</Filter>
+    </ClInclude>
+    <ClInclude Include="CGigantDeath.h">
+      <Filter>Script\GigantScript</Filter>
+    </ClInclude>
+    <ClInclude Include="CGigantIdle.h">
+      <Filter>Script\GigantScript</Filter>
+    </ClInclude>
+    <ClInclude Include="CGigantLoop.h">
+      <Filter>Script\GigantScript</Filter>
+    </ClInclude>
+    <ClInclude Include="CGigantEnd.h">
+      <Filter>Script\GigantScript</Filter>
+    </ClInclude>
+    <ClInclude Include="CGigantSpawn.h">
+      <Filter>Script\GigantScript</Filter>
+    </ClInclude>
+    <ClInclude Include="CSubDeath.h">
+      <Filter>Script\SubScript</Filter>
+    </ClInclude>
+    <ClInclude Include="CSubIdle.h">
+      <Filter>Script\SubScript</Filter>
+    </ClInclude>
+    <ClInclude Include="CSubScript.h">
+      <Filter>Script\SubScript</Filter>
+    </ClInclude>
+    <ClInclude Include="CSubSpawn.h">
+      <Filter>Script\SubScript</Filter>
+    </ClInclude>
+    <ClInclude Include="CSubWalk.h">
+      <Filter>Script\SubScript</Filter>
+    </ClInclude>
+    <ClInclude Include="CSubAttack.h">
+      <Filter>Script\SubScript</Filter>
+    </ClInclude>
+    <ClInclude Include="CBulletScript.h">
+      <Filter>Script\Projectile</Filter>
+    </ClInclude>
+    <ClInclude Include="CBellScript.h">
+      <Filter>Script\Projectile</Filter>
+    </ClInclude>
+    <ClInclude Include="CGCScript.h">
+      <Filter>Script\Projectile</Filter>
+    </ClInclude>
+    <ClInclude Include="CAttackCollisionScript.h">
+      <Filter>Script\Projectile</Filter>
+    </ClInclude>
+    <ClInclude Include="CChestScript.h">
+      <Filter>Script\ChestScript</Filter>
+    </ClInclude>
+    <ClInclude Include="CChestIdle.h">
+      <Filter>Script\ChestScript</Filter>
+    </ClInclude>
+    <ClInclude Include="CChestOpen.h">
+      <Filter>Script\ChestScript</Filter>
+    </ClInclude>
+    <ClInclude Include="CChestOpened.h">
+      <Filter>Script\ChestScript</Filter>
+    </ClInclude>
+    <ClInclude Include="CShrineScript.h">
+      <Filter>Script\ObjectScript</Filter>
+    </ClInclude>
+    <ClInclude Include="CHPUIScript.h">
+      <Filter>Script\UIScript</Filter>
+    </ClInclude>
+    <ClInclude Include="CHDRScript.h">
+      <Filter>Script\PostProcessScript</Filter>
+    </ClInclude>
+    <ClInclude Include="CItemObjectScript.h">
+      <Filter>Script\ObjectScript</Filter>
+    </ClInclude>
+    <ClInclude Include="CJellyFishDeath.h">
+      <Filter>Script\JellyFishScript</Filter>
+    </ClInclude>
+    <ClInclude Include="CMedikitScript.h">
+      <Filter>Script\ObjectScript</Filter>
+    </ClInclude>
+    <ClInclude Include="CCoffeeScript.h">
+      <Filter>Script\ObjectScript</Filter>
+    </ClInclude>
+    <ClInclude Include="CBloodScreenScript.h">
+      <Filter>Script\PostProcessScript</Filter>
+    </ClInclude>
+    <ClInclude Include="CScreenUIScript.h">
+      <Filter>Script\UIScript</Filter>
+    </ClInclude>
+    <ClInclude Include="CBisonScript.h">
+      <Filter>Script\BisonScript</Filter>
+    </ClInclude>
+    <ClInclude Include="CBisonWalk.h">
+      <Filter>Script\BisonScript</Filter>
+    </ClInclude>
+    <ClInclude Include="CBisonDeath.h">
+      <Filter>Script\BisonScript</Filter>
+    </ClInclude>
+    <ClInclude Include="CBisonHeadbut.h">
+      <Filter>Script\BisonScript</Filter>
+    </ClInclude>
+    <ClInclude Include="CBisonHurt.h">
+      <Filter>Script\BisonScript</Filter>
+    </ClInclude>
+    <ClInclude Include="CBisonIdle.h">
+      <Filter>Script\BisonScript</Filter>
+    </ClInclude>
+    <ClInclude Include="CBisonRun.h">
+      <Filter>Script\BisonScript</Filter>
+    </ClInclude>
+    <ClInclude Include="CBisonSpawn.h">
+      <Filter>Script\BisonScript</Filter>
+    </ClInclude>
+    <ClInclude Include="CSummon1Script.h">
+      <Filter>Script\ObjectScript</Filter>
+    </ClInclude>
+    <ClInclude Include="CSummon2Script.h">
+      <Filter>Script\ObjectScript</Filter>
+    </ClInclude>
+    <ClInclude Include="CSummon3Script.h">
+      <Filter>Script\ObjectScript</Filter>
+    </ClInclude>
+    <ClInclude Include="CDirectionalLightScript.h">
+      <Filter>Script</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Script.cpp">
+      <Filter>Default</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>Default</Filter>
+    </ClCompile>
+    <ClCompile Include="CScriptMgr.cpp" />
+    <ClCompile Include="CCameraMoveScript.cpp">
+      <Filter>Script</Filter>
+    </ClCompile>
+    <ClCompile Include="CMissileScript.cpp">
+      <Filter>Script</Filter>
+    </ClCompile>
+    <ClCompile Include="CSceneSaveLoad.cpp" />
+    <ClCompile Include="CPlayerScript.cpp">
+      <Filter>Script\PlayerScript</Filter>
+    </ClCompile>
+    <ClCompile Include="CPlayerIdle.cpp">
+      <Filter>Script\PlayerScript</Filter>
+    </ClCompile>
+    <ClCompile Include="CPlayerMove.cpp">
+      <Filter>Script\PlayerScript</Filter>
+    </ClCompile>
+    <ClCompile Include="CPlayerJump.cpp">
+      <Filter>Script\PlayerScript</Filter>
+    </ClCompile>
+    <ClCompile Include="CPlayerRoll.cpp">
+      <Filter>Script\PlayerScript</Filter>
+    </ClCompile>
+    <ClCompile Include="CPlayerFire.cpp">
+      <Filter>Script\PlayerScript</Filter>
+    </ClCompile>
+    <ClCompile Include="CPlayerRun.cpp">
+      <Filter>Script\PlayerScript</Filter>
+    </ClCompile>
+    <ClCompile Include="CPlayerSkill.cpp">
+      <Filter>Script\PlayerScript</Filter>
+    </ClCompile>
+    <ClCompile Include="CImpScript.cpp">
+      <Filter>Script\ImpScript</Filter>
+    </ClCompile>
+    <ClCompile Include="CLemurianScript.cpp">
+      <Filter>Script\LemurianScript</Filter>
+    </ClCompile>
+    <ClCompile Include="CImpAttack.cpp">
+      <Filter>Script\ImpScript</Filter>
+    </ClCompile>
+    <ClCompile Include="CImpDeath.cpp">
+      <Filter>Script\ImpScript</Filter>
+    </ClCompile>
+    <ClCompile Include="CImpHurt.cpp">
+      <Filter>Script\ImpScript</Filter>
+    </ClCompile>
+    <ClCompile Include="CImpIdle.cpp">
+      <Filter>Script\ImpScript</Filter>
+    </ClCompile>
+    <ClCompile Include="CImpRun.cpp">
+      <Filter>Script\ImpScript</Filter>
+    </ClCompile>
+    <ClCompile Include="CImpSpawn.cpp">
+      <Filter>Script\ImpScript</Filter>
+    </ClCompile>
+    <ClCompile Include="CLemurianDeath.cpp">
+      <Filter>Script\LemurianScript</Filter>
+    </ClCompile>
+    <ClCompile Include="CLemurianHurt.cpp">
+      <Filter>Script\LemurianScript</Filter>
+    </ClCompile>
+    <ClCompile Include="CLemurianIdle.cpp">
+      <Filter>Script\LemurianScript</Filter>
+    </ClCompile>
+    <ClCompile Include="CLemurianRun.cpp">
+      <Filter>Script\LemurianScript</Filter>
+    </ClCompile>
+    <ClCompile Include="CLemurianFireball.cpp">
+      <Filter>Script\LemurianScript</Filter>
+    </ClCompile>
+    <ClCompile Include="CLemurianSpawn.cpp">
+      <Filter>Script\LemurianScript</Filter>
+    </ClCompile>
+    <ClCompile Include="CLemurianPre.cpp">
+      <Filter>Script\LemurianScript</Filter>
+    </ClCompile>
+    <ClCompile Include="CJellyFishIdle.cpp">
+      <Filter>Script\JellyFishScript</Filter>
+    </ClCompile>
+    <ClCompile Include="CJellyFishSpawn.cpp">
+      <Filter>Script\JellyFishScript</Filter>
+    </ClCompile>
+    <ClCompile Include="CJellyFishScript.cpp">
+      <Filter>Script\JellyFishScript</Filter>
+    </ClCompile>
+    <ClCompile Include="CGigantAttack.cpp">
+      <Filter>Script\GigantScript</Filter>
+    </ClCompile>
+    <ClCompile Include="CGigantDeath.cpp">
+      <Filter>Script\GigantScript</Filter>
+    </ClCompile>
+    <ClCompile Include="CGigantIdle.cpp">
+      <Filter>Script\GigantScript</Filter>
+    </ClCompile>
+    <ClCompile Include="CGigantLoop.cpp">
+      <Filter>Script\GigantScript</Filter>
+    </ClCompile>
+    <ClCompile Include="CGigantScript.cpp">
+      <Filter>Script\GigantScript</Filter>
+    </ClCompile>
+    <ClCompile Include="CGigantSpawn.cpp">
+      <Filter>Script\GigantScript</Filter>
+    </ClCompile>
+    <ClCompile Include="CGigantEnd.cpp">
+      <Filter>Script\GigantScript</Filter>
+    </ClCompile>
+    <ClCompile Include="CSubDeath.cpp">
+      <Filter>Script\SubScript</Filter>
+    </ClCompile>
+    <ClCompile Include="CSubIdle.cpp">
+      <Filter>Script\SubScript</Filter>
+    </ClCompile>
+    <ClCompile Include="CSubScript.cpp">
+      <Filter>Script\SubScript</Filter>
+    </ClCompile>
+    <ClCompile Include="CSubSpawn.cpp">
+      <Filter>Script\SubScript</Filter>
+    </ClCompile>
+    <ClCompile Include="CSubWalk.cpp">
+      <Filter>Script\SubScript</Filter>
+    </ClCompile>
+    <ClCompile Include="CSubAttack.cpp">
+      <Filter>Script\SubScript</Filter>
+    </ClCompile>
+    <ClCompile Include="CBellScript.cpp">
+      <Filter>Script\Projectile</Filter>
+    </ClCompile>
+    <ClCompile Include="CBulletScript.cpp">
+      <Filter>Script\Projectile</Filter>
+    </ClCompile>
+    <ClCompile Include="CGCScript.cpp">
+      <Filter>Script\Projectile</Filter>
+    </ClCompile>
+    <ClCompile Include="CAttackCollisionScript.cpp">
+      <Filter>Script\Projectile</Filter>
+    </ClCompile>
+    <ClCompile Include="CChestScript.cpp">
+      <Filter>Script\ChestScript</Filter>
+    </ClCompile>
+    <ClCompile Include="CChestIdle.cpp">
+      <Filter>Script\ChestScript</Filter>
+    </ClCompile>
+    <ClCompile Include="CChestOpen.cpp">
+      <Filter>Script\ChestScript</Filter>
+    </ClCompile>
+    <ClCompile Include="CChestOpened.cpp">
+      <Filter>Script\ChestScript</Filter>
+    </ClCompile>
+    <ClCompile Include="CShrineScript.cpp">
+      <Filter>Script\ObjectScript</Filter>
+    </ClCompile>
+    <ClCompile Include="CHPUIScript.cpp">
+      <Filter>Script\UIScript</Filter>
+    </ClCompile>
+    <ClCompile Include="CHDRScript.cpp">
+      <Filter>Script\PostProcessScript</Filter>
+    </ClCompile>
+    <ClCompile Include="CItemObjectScript.cpp">
+      <Filter>Script\ObjectScript</Filter>
+    </ClCompile>
+    <ClCompile Include="CJellyFishDeath.cpp">
+      <Filter>Script\JellyFishScript</Filter>
+    </ClCompile>
+    <ClCompile Include="CMedikitScript.cpp">
+      <Filter>Script\ObjectScript</Filter>
+    </ClCompile>
+    <ClCompile Include="CCoffeeScript.cpp">
+      <Filter>Script\ObjectScript</Filter>
+    </ClCompile>
+    <ClCompile Include="CBloodScreenScript.cpp">
+      <Filter>Script\PostProcessScript</Filter>
+    </ClCompile>
+    <ClCompile Include="CScreenUIScript.cpp">
+      <Filter>Script\UIScript</Filter>
+    </ClCompile>
+    <ClCompile Include="CBisonScript.cpp">
+      <Filter>Script\BisonScript</Filter>
+    </ClCompile>
+    <ClCompile Include="CBisonDeath.cpp">
+      <Filter>Script\BisonScript</Filter>
+    </ClCompile>
+    <ClCompile Include="CBisonHeadbut.cpp">
+      <Filter>Script\BisonScript</Filter>
+    </ClCompile>
+    <ClCompile Include="CBisonHurt.cpp">
+      <Filter>Script\BisonScript</Filter>
+    </ClCompile>
+    <ClCompile Include="CBisonIdle.cpp">
+      <Filter>Script\BisonScript</Filter>
+    </ClCompile>
+    <ClCompile Include="CBisonRun.cpp">
+      <Filter>Script\BisonScript</Filter>
+    </ClCompile>
+    <ClCompile Include="CBisonSpawn.cpp">
+      <Filter>Script\BisonScript</Filter>
+    </ClCompile>
+    <ClCompile Include="CBisonWalk.cpp">
+      <Filter>Script\BisonScript</Filter>
+    </ClCompile>
+    <ClCompile Include="CSummon1Script.cpp">
+      <Filter>Script\ObjectScript</Filter>
+    </ClCompile>
+    <ClCompile Include="CSummon2Script.cpp">
+      <Filter>Script\ObjectScript</Filter>
+    </ClCompile>
+    <ClCompile Include="CSummon3Script.cpp">
+      <Filter>Script\ObjectScript</Filter>
+    </ClCompile>
+    <ClCompile Include="CDirectionalLightScript.cpp">
+      <Filter>Script</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Default">
+      <UniqueIdentifier>{5af2d85a-2f9c-4937-9fa8-e14337ba7274}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script">
+      <UniqueIdentifier>{ac27a7a1-23b1-4a47-8b9b-231c2e57487d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\PlayerScript">
+      <UniqueIdentifier>{50805bf1-f90a-4ba9-8aa5-eb1682a2c0af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\ImpScript">
+      <UniqueIdentifier>{199c9976-1a2c-4524-95ec-585b96609b13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\LemurianScript">
+      <UniqueIdentifier>{7ad6228b-3e14-4cd2-9fed-fab6492f4356}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\JellyFishScript">
+      <UniqueIdentifier>{ec558bb1-c4cd-41a2-8631-78203ce05ec0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\GigantScript">
+      <UniqueIdentifier>{bb3687e0-c86f-4237-a569-21061689f393}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\SubScript">
+      <UniqueIdentifier>{da6a68b1-8fb7-4ddb-9fb0-bf7c089684da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Projectile">
+      <UniqueIdentifier>{da0667c5-3d1f-4373-9d36-fe84ca05a4c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\ChestScript">
+      <UniqueIdentifier>{571c6b82-8c0c-4a61-ade2-732902729590}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\ObjectScript">
+      <UniqueIdentifier>{3fa35926-da7a-4a95-b39e-38b7ed3b8b71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\UIScript">
+      <UniqueIdentifier>{23416d88-805e-43fc-8b4a-1f8276d46916}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\PostProcessScript">
+      <UniqueIdentifier>{2700d257-f803-4df5-8605-3308fb4b490a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\BisonScript">
+      <UniqueIdentifier>{69329a9d-a157-4168-bc56-401b171df310}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="cpp.hint" />
+  </ItemGroup>
+</Project>

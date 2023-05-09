@@ -1,0 +1,840 @@
+{
+   "Layer0Info" : {
+      "Name" : "Default",
+      "ObjCount" : 14,
+      "Object0" : {
+         "ChildCount" : 0,
+         "ObjectInfo" : {
+            "Active" : true,
+            "Component" : [ "TRANSFORM", "LIGHT3D" ],
+            "LIGHT3D" : {
+               "Amb" : [ 0.10000000149011612, 0.10000000149011612, 0.10000000149011612, 0.0 ],
+               "Angle" : 0.0,
+               "Diff" : [ 1.0, 1.0, 1.0, 0.0 ],
+               "LightDir" : [ 0.0, -0.99999988079071045, -1.1920928955078125e-07 ],
+               "LightMtrl" : {
+                  "IsNull" : false,
+                  "Key" : "material\\DirLightMtrl.mtrl",
+                  "Path" : "material\\DirLightMtrl.mtrl"
+               },
+               "LightType" : 0,
+               "Range" : 5000.0,
+               "Spec" : [ 0.15000000596046448, 0.15000000596046448, 0.15000000596046448, 0.0 ],
+               "VolumeMesh" : {
+                  "IsNull" : false,
+                  "Key" : "RectMesh",
+                  "Path" : "RectMesh"
+               },
+               "WorldPos" : [ 0.0, 0.0, 0.0 ]
+            },
+            "Name" : "Directional Light",
+            "TRANSFORM" : {
+               "IsIgnoreParentScale" : false,
+               "IsIgnoreParentTransform" : false,
+               "RelativePos" : [ 0.0, 0.0, 0.0 ],
+               "RelativeRotation" : [ 1.5707963705062866, 0.0, 0.0 ],
+               "RelativeScale" : [ 10000.0, 10000.0, 10000.0 ]
+            }
+         },
+         "ScriptCount" : 1,
+         "ScriptName" : [ "CDirectionalLightScript" ]
+      },
+      "Object1" : {
+         "ChildCount" : 0,
+         "ObjectInfo" : {
+            "Active" : true,
+            "Component" : [ "TRANSFORM", "SKYBOX" ],
+            "Name" : "SkyBox",
+            "SKYBOX" : {
+               "Type" : 1
+            },
+            "TRANSFORM" : {
+               "IsIgnoreParentScale" : false,
+               "IsIgnoreParentTransform" : false,
+               "RelativePos" : [ 0.0, 0.0, 0.0 ],
+               "RelativeRotation" : [ 0.0, 0.0, 0.0 ],
+               "RelativeScale" : [ 100.0, 100.0, 100.0 ]
+            }
+         },
+         "ScriptCount" : 0,
+         "ScriptName" : null
+      },
+      "Object10" : {
+         "ChildCount" : 0,
+         "ObjectInfo" : {
+            "Active" : true,
+            "Component" : [ "TRANSFORM", "MESHRENDER" ],
+            "MESHRENDER" : {
+               "DynamicShadow" : false,
+               "FrustumCulling" : false,
+               "Materail0" : {
+                  "IsNull" : false,
+                  "Key" : "material\\ShrineCombatMesh_default.mtrl",
+                  "Path" : "material\\ShrineCombatMesh_default.mtrl"
+               },
+               "Mesh" : {
+                  "IsNull" : false,
+                  "Key" : "mesh\\combatshrine0.mesh",
+                  "Path" : "mesh\\combatshrine0.mesh"
+               },
+               "MtrlCount" : 1
+            },
+            "Name" : "Combatshrine3",
+            "TRANSFORM" : {
+               "IsIgnoreParentScale" : false,
+               "IsIgnoreParentTransform" : false,
+               "RelativePos" : [ 3100.0, 900.0, 9800.0 ],
+               "RelativeRotation" : [ 1.5707963705062866, 0.0, 0.0 ],
+               "RelativeScale" : [ 50.0, 50.0, 50.0 ]
+            }
+         },
+         "ScriptCount" : 2,
+         "ScriptName" : [ "CItemObjectScript", "CSummon3Script" ]
+      },
+      "Object11" : {
+         "ChildCount" : 0,
+         "ObjectInfo" : {
+            "Active" : true,
+            "Component" : [ "TRANSFORM", "MESHRENDER" ],
+            "MESHRENDER" : {
+               "DynamicShadow" : false,
+               "FrustumCulling" : false,
+               "Materail0" : {
+                  "IsNull" : false,
+                  "Key" : "material\\spmWPPine1_LOD1_default.mtrl",
+                  "Path" : "material\\spmWPPine1_LOD1_default.mtrl"
+               },
+               "Mesh" : {
+                  "IsNull" : false,
+                  "Key" : "mesh\\bark0.mesh",
+                  "Path" : "mesh\\bark0.mesh"
+               },
+               "MtrlCount" : 1
+            },
+            "Name" : "Bark",
+            "TRANSFORM" : {
+               "IsIgnoreParentScale" : false,
+               "IsIgnoreParentTransform" : false,
+               "RelativePos" : [ 10000.0, -20000.0, 50000.0 ],
+               "RelativeRotation" : [ 0.0, 0.0, 0.0 ],
+               "RelativeScale" : [ 1000.0, 1000.0, 1000.0 ]
+            }
+         },
+         "ScriptCount" : 0,
+         "ScriptName" : null
+      },
+      "Object12" : {
+         "ChildCount" : 0,
+         "ObjectInfo" : {
+            "Active" : true,
+            "Component" : [ "TRANSFORM", "MESHRENDER" ],
+            "MESHRENDER" : {
+               "DynamicShadow" : false,
+               "FrustumCulling" : false,
+               "Materail0" : {
+                  "IsNull" : false,
+                  "Key" : "material\\GPRuinedRing1Half__2__default.mtrl",
+                  "Path" : "material\\GPRuinedRing1Half__2__default.mtrl"
+               },
+               "Mesh" : {
+                  "IsNull" : false,
+                  "Key" : "mesh\\ruin10.mesh",
+                  "Path" : "mesh\\ruin10.mesh"
+               },
+               "MtrlCount" : 1
+            },
+            "Name" : "Ruin1",
+            "TRANSFORM" : {
+               "IsIgnoreParentScale" : false,
+               "IsIgnoreParentTransform" : false,
+               "RelativePos" : [ 3000.0, 0.0, -5000.0 ],
+               "RelativeRotation" : [ 1.5707963705062866, 1.5707963705062866, 0.0 ],
+               "RelativeScale" : [ 10000.0, 10000.0, 10000.0 ]
+            }
+         },
+         "ScriptCount" : 0,
+         "ScriptName" : null
+      },
+      "Object13" : {
+         "ChildCount" : 0,
+         "ObjectInfo" : {
+            "ANIMATOR3D" : {
+               "AnimCount" : 3,
+               "Animation0" : {
+                  "AnimName" : "Idle",
+                  "ClipIndex" : 0,
+                  "EndFrame" : 7,
+                  "FrameCount" : 30,
+                  "StartFrame" : 6
+               },
+               "Animation1" : {
+                  "AnimName" : "Open",
+                  "ClipIndex" : 0,
+                  "EndFrame" : 77,
+                  "FrameCount" : 30,
+                  "StartFrame" : 6
+               },
+               "Animation2" : {
+                  "AnimName" : "Opened",
+                  "ClipIndex" : 0,
+                  "EndFrame" : 5,
+                  "FrameCount" : 30,
+                  "StartFrame" : 0
+               },
+               "CurAnimName" : "Idle",
+               "FirstBoneIndex" : 0.0,
+               "SecondBoneIndex" : 0.0
+            },
+            "Active" : true,
+            "COLLIDER3D" : {
+               "ColliderType" : 0,
+               "OffSetPos" : [ 0.0, 0.0, 0.0 ],
+               "OffSetScale" : [ 44.0, 26.0, 44.0 ]
+            },
+            "Component" : [ "TRANSFORM", "COLLIDER3D", "ANIMATOR3D", "MESHRENDER", "FSM" ],
+            "MESHRENDER" : {
+               "DynamicShadow" : false,
+               "FrustumCulling" : false,
+               "Materail0" : {
+                  "IsNull" : false,
+                  "Key" : "material\\matChest1.mtrl",
+                  "Path" : "material\\matChest1.mtrl"
+               },
+               "Mesh" : {
+                  "IsNull" : false,
+                  "Key" : "mesh\\chest0.mesh",
+                  "Path" : "mesh\\chest0.mesh"
+               },
+               "MtrlCount" : 1
+            },
+            "Name" : "Chest",
+            "TRANSFORM" : {
+               "IsIgnoreParentScale" : false,
+               "IsIgnoreParentTransform" : false,
+               "RelativePos" : [ 5000.0, 0.0, 5000.0 ],
+               "RelativeRotation" : [ 0.0, 0.0, 0.0 ],
+               "RelativeScale" : [ 9.0, 9.0, 9.0 ]
+            }
+         },
+         "ScriptCount" : 4,
+         "ScriptName" : [ "CChestScript", "CChestIdle", "CChestOpen", "CChestOpened" ]
+      },
+      "Object2" : {
+         "ChildCount" : 0,
+         "ObjectInfo" : {
+            "Active" : false,
+            "Component" : [ "TRANSFORM", "MESHRENDER" ],
+            "MESHRENDER" : {
+               "DynamicShadow" : false,
+               "FrustumCulling" : false,
+               "Materail0" : {
+                  "IsNull" : false,
+                  "Key" : "material\\PostProcessMtrl.mtrl",
+                  "Path" : "material\\PostProcessMtrl.mtrl"
+               },
+               "Mesh" : {
+                  "IsNull" : false,
+                  "Key" : "RectMesh",
+                  "Path" : "RectMesh"
+               },
+               "MtrlCount" : 1
+            },
+            "Name" : "DOF",
+            "TRANSFORM" : {
+               "IsIgnoreParentScale" : false,
+               "IsIgnoreParentTransform" : false,
+               "RelativePos" : [ 0.0, 0.0, 100000.0 ],
+               "RelativeRotation" : [ 0.0, 0.0, 0.0 ],
+               "RelativeScale" : [ 0.0, 0.0, 1.0 ]
+            }
+         },
+         "ScriptCount" : 0,
+         "ScriptName" : null
+      },
+      "Object3" : {
+         "ChildCount" : 0,
+         "ObjectInfo" : {
+            "Active" : false,
+            "Component" : [ "TRANSFORM", "MESHRENDER" ],
+            "MESHRENDER" : {
+               "DynamicShadow" : false,
+               "FrustumCulling" : false,
+               "Materail0" : {
+                  "IsNull" : false,
+                  "Key" : "material\\BloodScreenMtrl.mtrl",
+                  "Path" : "material\\BloodScreenMtrl.mtrl"
+               },
+               "Mesh" : {
+                  "IsNull" : false,
+                  "Key" : "RectMesh",
+                  "Path" : "RectMesh"
+               },
+               "MtrlCount" : 1
+            },
+            "Name" : "BloodScreen",
+            "TRANSFORM" : {
+               "IsIgnoreParentScale" : false,
+               "IsIgnoreParentTransform" : false,
+               "RelativePos" : [ 0.0, 0.0, 10000.0 ],
+               "RelativeRotation" : [ 0.0, 0.0, 0.0 ],
+               "RelativeScale" : [ 0.0, 0.0, 1.0 ]
+            }
+         },
+         "ScriptCount" : 1,
+         "ScriptName" : [ "CBloodScreenScript" ]
+      },
+      "Object4" : {
+         "ChildCount" : 0,
+         "ObjectInfo" : {
+            "Active" : true,
+            "CAMERA" : {
+               "CameraIndex" : 0,
+               "FOV" : 0.78539818525314331,
+               "Far" : 100000.0,
+               "LayerMask" : 4294967295,
+               "ProjType" : 1,
+               "Width" : 1600.0
+            },
+            "Component" : [ "TRANSFORM", "CAMERA" ],
+            "Name" : "MainCamera",
+            "TRANSFORM" : {
+               "IsIgnoreParentScale" : false,
+               "IsIgnoreParentTransform" : false,
+               "RelativePos" : [ 0.0, 0.0, 0.0 ],
+               "RelativeRotation" : [ 0.0, 0.0, 0.0 ],
+               "RelativeScale" : [ 1.0, 1.0, 1.0 ]
+            }
+         },
+         "ScriptCount" : 1,
+         "ScriptName" : [ "CCameraMoveScript" ]
+      },
+      "Object5" : {
+         "ChildCount" : 0,
+         "ObjectInfo" : {
+            "Active" : true,
+            "Component" : [ "TRANSFORM", "MESHRENDER" ],
+            "MESHRENDER" : {
+               "DynamicShadow" : false,
+               "FrustumCulling" : false,
+               "Materail0" : {
+                  "IsNull" : true
+               },
+               "Mesh" : {
+                  "IsNull" : false,
+                  "Key" : "CubeMesh",
+                  "Path" : "CubeMesh"
+               },
+               "MtrlCount" : 1
+            },
+            "Name" : "a",
+            "TRANSFORM" : {
+               "IsIgnoreParentScale" : false,
+               "IsIgnoreParentTransform" : false,
+               "RelativePos" : [ 0.0, 0.0, 10000.0 ],
+               "RelativeRotation" : [ 0.0, 0.0, 0.0 ],
+               "RelativeScale" : [ 100.0, 100.0, 100.0 ]
+            }
+         },
+         "ScriptCount" : 0,
+         "ScriptName" : null
+      },
+      "Object6" : {
+         "ChildCount" : 0,
+         "ObjectInfo" : {
+            "Active" : true,
+            "Component" : [ "TRANSFORM", "MESHRENDER" ],
+            "MESHRENDER" : {
+               "DynamicShadow" : false,
+               "FrustumCulling" : false,
+               "Materail0" : {
+                  "IsNull" : false,
+                  "Key" : "material\\spmWPPine1_LOD1_default.mtrl",
+                  "Path" : "material\\spmWPPine1_LOD1_default.mtrl"
+               },
+               "Mesh" : {
+                  "IsNull" : false,
+                  "Key" : "mesh\\bark0.mesh",
+                  "Path" : "mesh\\bark0.mesh"
+               },
+               "MtrlCount" : 1
+            },
+            "Name" : "Bark",
+            "TRANSFORM" : {
+               "IsIgnoreParentScale" : false,
+               "IsIgnoreParentTransform" : false,
+               "RelativePos" : [ 0.0, 0.0, 0.0 ],
+               "RelativeRotation" : [ 0.0, 0.0, 0.0 ],
+               "RelativeScale" : [ 100.0, 100.0, 100.0 ]
+            }
+         },
+         "ScriptCount" : 0,
+         "ScriptName" : null
+      },
+      "Object7" : {
+         "Child0" : {
+            "ChildCount" : 0,
+            "ObjectInfo" : {
+               "Active" : true,
+               "Component" : [ "TRANSFORM", "PARTICLESYSTEM" ],
+               "Name" : "Particle",
+               "PARTICLESYSTEM" : {
+                  "AliveCount" : 1,
+                  "Emissive" : 1,
+                  "EndColor" : [ 1.0, 1.0, 1.0, 1.0 ],
+                  "EndScale" : [ 1.0, 1.0, 1.0 ],
+                  "EndSpeed" : 50.0,
+                  "Lighting" : 1,
+                  "MaxLifeTime" : 4.5,
+                  "MinLifeTime" : 3.0,
+                  "ParticleCreateDistance" : 400.0,
+                  "ParticleCreateTerm" : 0.10000000149011612,
+                  "PosInherit" : 0,
+                  "StartColor" : [ 1.0, 1.0, 1.0, 0.0 ],
+                  "StartScale" : [ 10.0, 10.0, 1.0 ],
+                  "StartSpeed" : 200.0
+               },
+               "TRANSFORM" : {
+                  "IsIgnoreParentScale" : false,
+                  "IsIgnoreParentTransform" : false,
+                  "RelativePos" : [ 0.0, 0.0, 0.0 ],
+                  "RelativeRotation" : [ 0.0, 0.0, 0.0 ],
+                  "RelativeScale" : [ 1.0, 1.0, 1.0 ]
+               }
+            },
+            "ScriptCount" : 0,
+            "ScriptName" : null
+         },
+         "ChildCount" : 1,
+         "ObjectInfo" : {
+            "Active" : true,
+            "Component" : [ "TRANSFORM", "MESHRENDER" ],
+            "MESHRENDER" : {
+               "DynamicShadow" : false,
+               "FrustumCulling" : false,
+               "Materail0" : {
+                  "IsNull" : false,
+                  "Key" : "material\\ShrineBossMesh_default.mtrl",
+                  "Path" : "material\\ShrineBossMesh_default.mtrl"
+               },
+               "Mesh" : {
+                  "IsNull" : false,
+                  "Key" : "mesh\\Shrine0.mesh",
+                  "Path" : "mesh\\Shrine0.mesh"
+               },
+               "MtrlCount" : 1
+            },
+            "Name" : "Shrine",
+            "TRANSFORM" : {
+               "IsIgnoreParentScale" : false,
+               "IsIgnoreParentTransform" : false,
+               "RelativePos" : [ 6500.0, 0.0, 6000.0 ],
+               "RelativeRotation" : [ 1.5707963705062866, 0.0, 0.0 ],
+               "RelativeScale" : [ 50.0, 50.0, 50.0 ]
+            }
+         },
+         "ScriptCount" : 1,
+         "ScriptName" : [ "CShrineScript" ]
+      },
+      "Object8" : {
+         "ChildCount" : 0,
+         "ObjectInfo" : {
+            "Active" : true,
+            "Component" : [ "TRANSFORM", "MESHRENDER" ],
+            "MESHRENDER" : {
+               "DynamicShadow" : false,
+               "FrustumCulling" : false,
+               "Materail0" : {
+                  "IsNull" : false,
+                  "Key" : "material\\ShrineCombatMesh_default.mtrl",
+                  "Path" : "material\\ShrineCombatMesh_default.mtrl"
+               },
+               "Mesh" : {
+                  "IsNull" : false,
+                  "Key" : "mesh\\combatshrine0.mesh",
+                  "Path" : "mesh\\combatshrine0.mesh"
+               },
+               "MtrlCount" : 1
+            },
+            "Name" : "Combatshrine1",
+            "TRANSFORM" : {
+               "IsIgnoreParentScale" : false,
+               "IsIgnoreParentTransform" : false,
+               "RelativePos" : [ 10000.0, 0.0, 10000.0 ],
+               "RelativeRotation" : [ 1.5707963705062866, 0.0, 0.0 ],
+               "RelativeScale" : [ 50.0, 50.0, 50.0 ]
+            }
+         },
+         "ScriptCount" : 2,
+         "ScriptName" : [ "CSummon1Script", "CItemObjectScript" ]
+      },
+      "Object9" : {
+         "ChildCount" : 0,
+         "ObjectInfo" : {
+            "Active" : true,
+            "Component" : [ "TRANSFORM", "MESHRENDER" ],
+            "MESHRENDER" : {
+               "DynamicShadow" : false,
+               "FrustumCulling" : false,
+               "Materail0" : {
+                  "IsNull" : false,
+                  "Key" : "material\\ShrineCombatMesh_default.mtrl",
+                  "Path" : "material\\ShrineCombatMesh_default.mtrl"
+               },
+               "Mesh" : {
+                  "IsNull" : false,
+                  "Key" : "mesh\\combatshrine0.mesh",
+                  "Path" : "mesh\\combatshrine0.mesh"
+               },
+               "MtrlCount" : 1
+            },
+            "Name" : "Combatshrine2",
+            "TRANSFORM" : {
+               "IsIgnoreParentScale" : false,
+               "IsIgnoreParentTransform" : false,
+               "RelativePos" : [ 10000.0, 0.0, 2000.0 ],
+               "RelativeRotation" : [ 1.5707963705062866, 1.5707963705062866, 0.0 ],
+               "RelativeScale" : [ 50.0, 50.0, 50.0 ]
+            }
+         },
+         "ScriptCount" : 2,
+         "ScriptName" : [ "CSummon2Script", "CItemObjectScript" ]
+      }
+   },
+   "Layer1Info" : {
+      "Name" : "LandScape",
+      "ObjCount" : 1,
+      "Object0" : {
+         "ChildCount" : 0,
+         "ObjectInfo" : {
+            "Active" : true,
+            "Component" : [ "TRANSFORM", "LANDSCAPE" ],
+            "LANDSCAPE" : {
+               "BrushArrTex" : {
+                  "IsNull" : false,
+                  "Key" : "BrushTex",
+                  "Path" : "texture\\brush\\BrushArr.dds"
+               },
+               "HeightMap" : {
+                  "IsNull" : false,
+                  "Key" : "texture\\height\\height22.png",
+                  "Path" : "texture\\height\\height22.png"
+               },
+               "Material" : {
+                  "IsNull" : false,
+                  "Key" : "material\\LandScapeMtrl.mtrl",
+                  "Path" : "material\\LandScapeMtrl.mtrl"
+               },
+               "Mesh" : {
+                  "IsNull" : false,
+                  "Key" : "LandscapeMesh",
+                  "Path" : "LandscapeMesh"
+               },
+               "PreviewTex" : {
+                  "IsNull" : false,
+                  "Key" : "PreviewMap",
+                  "Path" : "PreviewMap"
+               },
+               "TileArrTex" : {
+                  "IsNull" : false,
+                  "Key" : "texture\\tile\\tilea.dds",
+                  "Path" : "texture\\tile\\tilea.dds"
+               },
+               "WeightTex" : {
+                  "IsNull" : false,
+                  "Key" : "texture\\weight\\weight22.png",
+                  "Path" : "texture\\weight\\weight22.png"
+               },
+               "WeightWidth" : 1024,
+               "XFaceCount" : 32,
+               "ZFaceCount" : 32,
+               "iWeightHeight" : 1024
+            },
+            "Name" : "LandScape",
+            "TRANSFORM" : {
+               "IsIgnoreParentScale" : false,
+               "IsIgnoreParentTransform" : false,
+               "RelativePos" : [ 0.0, 0.0, 0.0 ],
+               "RelativeRotation" : [ 0.0, 0.0, 0.0 ],
+               "RelativeScale" : [ 400.0, 2000.0, 400.0 ]
+            }
+         },
+         "ScriptCount" : 0,
+         "ScriptName" : null
+      }
+   },
+   "Layer2Info" : {
+      "Name" : "Player",
+      "ObjCount" : 1,
+      "Object0" : {
+         "Child0" : {
+            "ChildCount" : 0,
+            "ObjectInfo" : {
+               "Active" : true,
+               "Component" : [ "TRANSFORM", "MESHRENDER" ],
+               "MESHRENDER" : {
+                  "DynamicShadow" : false,
+                  "FrustumCulling" : false,
+                  "Materail0" : {
+                     "IsNull" : false,
+                     "Key" : "material\\UIMtrl.mtrl",
+                     "Path" : "material\\UIMtrl.mtrl"
+                  },
+                  "Mesh" : {
+                     "IsNull" : false,
+                     "Key" : "RectMesh",
+                     "Path" : "RectMesh"
+                  },
+                  "MtrlCount" : 1
+               },
+               "Name" : "PlayerHPUI",
+               "TRANSFORM" : {
+                  "IsIgnoreParentScale" : false,
+                  "IsIgnoreParentTransform" : true,
+                  "RelativePos" : [ -600.0, -350.0, 0.0 ],
+                  "RelativeRotation" : [ 0.0, 0.0, 0.0 ],
+                  "RelativeScale" : [ 260.0, 30.0, 1.0 ]
+               }
+            },
+            "ScriptCount" : 1,
+            "ScriptName" : [ "CScreenUIScript" ]
+         },
+         "Child1" : {
+            "ChildCount" : 0,
+            "ObjectInfo" : {
+               "Active" : true,
+               "Component" : [ "TRANSFORM", "SOCKET", "MESHRENDER" ],
+               "MESHRENDER" : {
+                  "DynamicShadow" : false,
+                  "FrustumCulling" : false,
+                  "Materail0" : {
+                     "IsNull" : false,
+                     "Key" : "material\\SocketMtrl.mtrl",
+                     "Path" : "material\\SocketMtrl.mtrl"
+                  },
+                  "Mesh" : {
+                     "IsNull" : false,
+                     "Key" : "mesh\\Player0.mesh",
+                     "Path" : "mesh\\Player0.mesh"
+                  },
+                  "MtrlCount" : 1
+               },
+               "Name" : "LeftGun",
+               "SOCKET" : {
+                  "Collision" : false,
+                  "Rotation" : [ -1.5707963705062866, -1.5707963705062866, 0.0 ],
+                  "Scale" : [ 1.0, 1.0, 1.0 ],
+                  "Transform" : [ 0.0, 0.0, 0.10000000149011612 ]
+               },
+               "TRANSFORM" : {
+                  "IsIgnoreParentScale" : false,
+                  "IsIgnoreParentTransform" : false,
+                  "RelativePos" : [ 0.0, 0.0, 0.0 ],
+                  "RelativeRotation" : [ 0.0, 0.0, 0.0 ],
+                  "RelativeScale" : [ 1.0, 1.0, 1.0 ]
+               }
+            },
+            "ScriptCount" : 0,
+            "ScriptName" : null
+         },
+         "Child2" : {
+            "ChildCount" : 0,
+            "ObjectInfo" : {
+               "Active" : true,
+               "Component" : [ "TRANSFORM", "SOCKET", "MESHRENDER" ],
+               "MESHRENDER" : {
+                  "DynamicShadow" : false,
+                  "FrustumCulling" : false,
+                  "Materail0" : {
+                     "IsNull" : false,
+                     "Key" : "material\\Socket2Mtrl.mtrl",
+                     "Path" : "material\\Socket2Mtrl.mtrl"
+                  },
+                  "Mesh" : {
+                     "IsNull" : false,
+                     "Key" : "mesh\\Player1.mesh",
+                     "Path" : "mesh\\Player1.mesh"
+                  },
+                  "MtrlCount" : 1
+               },
+               "Name" : "RightGun",
+               "SOCKET" : {
+                  "Collision" : false,
+                  "Rotation" : [ 1.5707963705062866, -1.5707963705062866, 0.0 ],
+                  "Scale" : [ 1.0, 1.0, 1.0 ],
+                  "Transform" : [ 0.0, 0.0, 0.10000000149011612 ]
+               },
+               "TRANSFORM" : {
+                  "IsIgnoreParentScale" : false,
+                  "IsIgnoreParentTransform" : false,
+                  "RelativePos" : [ 0.0, 0.0, 0.0 ],
+                  "RelativeRotation" : [ 0.0, 0.0, 0.0 ],
+                  "RelativeScale" : [ 1.0, 1.0, 1.0 ]
+               }
+            },
+            "ScriptCount" : 0,
+            "ScriptName" : null
+         },
+         "ChildCount" : 3,
+         "ObjectInfo" : {
+            "ANIMATOR3D" : {
+               "AnimCount" : 13,
+               "Animation0" : {
+                  "AnimName" : "Fire",
+                  "ClipIndex" : 0,
+                  "EndFrame" : 473,
+                  "FrameCount" : 30,
+                  "StartFrame" : 425
+               },
+               "Animation1" : {
+                  "AnimName" : "Idle",
+                  "ClipIndex" : 0,
+                  "EndFrame" : 120,
+                  "FrameCount" : 30,
+                  "StartFrame" : 0
+               },
+               "Animation10" : {
+                  "AnimName" : "RunRight",
+                  "ClipIndex" : 0,
+                  "EndFrame" : 370,
+                  "FrameCount" : 30,
+                  "StartFrame" : 340
+               },
+               "Animation11" : {
+                  "AnimName" : "Skill",
+                  "ClipIndex" : 0,
+                  "EndFrame" : 539,
+                  "FrameCount" : 30,
+                  "StartFrame" : 494
+               },
+               "Animation12" : {
+                  "AnimName" : "Sprint",
+                  "ClipIndex" : 0,
+                  "EndFrame" : 401,
+                  "FrameCount" : 30,
+                  "StartFrame" : 371
+               },
+               "Animation2" : {
+                  "AnimName" : "Jump",
+                  "ClipIndex" : 0,
+                  "EndFrame" : 420,
+                  "FrameCount" : 30,
+                  "StartFrame" : 402
+               },
+               "Animation3" : {
+                  "AnimName" : "RollBack",
+                  "ClipIndex" : 0,
+                  "EndFrame" : 168,
+                  "FrameCount" : 30,
+                  "StartFrame" : 145
+               },
+               "Animation4" : {
+                  "AnimName" : "RollFront",
+                  "ClipIndex" : 0,
+                  "EndFrame" : 144,
+                  "FrameCount" : 30,
+                  "StartFrame" : 121
+               },
+               "Animation5" : {
+                  "AnimName" : "RollLeft",
+                  "ClipIndex" : 0,
+                  "EndFrame" : 216,
+                  "FrameCount" : 30,
+                  "StartFrame" : 193
+               },
+               "Animation6" : {
+                  "AnimName" : "RollRight",
+                  "ClipIndex" : 0,
+                  "EndFrame" : 192,
+                  "FrameCount" : 30,
+                  "StartFrame" : 169
+               },
+               "Animation7" : {
+                  "AnimName" : "RunBack",
+                  "ClipIndex" : 0,
+                  "EndFrame" : 277,
+                  "FrameCount" : 30,
+                  "StartFrame" : 217
+               },
+               "Animation8" : {
+                  "AnimName" : "RunFront",
+                  "ClipIndex" : 0,
+                  "EndFrame" : 308,
+                  "FrameCount" : 30,
+                  "StartFrame" : 278
+               },
+               "Animation9" : {
+                  "AnimName" : "RunLeft",
+                  "ClipIndex" : 0,
+                  "EndFrame" : 340,
+                  "FrameCount" : 30,
+                  "StartFrame" : 310
+               },
+               "CurAnimName" : "Fire",
+               "FirstBoneIndex" : 14.0,
+               "SecondBoneIndex" : 31.0
+            },
+            "Active" : true,
+            "COLLIDER3D" : {
+               "ColliderType" : 0,
+               "OffSetPos" : [ 0.0, 40.0, 0.0 ],
+               "OffSetScale" : [ 30.0, 80.0, 30.0 ]
+            },
+            "Component" : [ "TRANSFORM", "COLLIDER3D", "ANIMATOR3D", "MESHRENDER", "FSM" ],
+            "MESHRENDER" : {
+               "DynamicShadow" : true,
+               "FrustumCulling" : false,
+               "Materail0" : {
+                  "IsNull" : false,
+                  "Key" : "material\\matCommandoDualies.mtrl",
+                  "Path" : "material\\matCommandoDualies.mtrl"
+               },
+               "Mesh" : {
+                  "IsNull" : false,
+                  "Key" : "mesh\\Player2.mesh",
+                  "Path" : "mesh\\Player2.mesh"
+               },
+               "MtrlCount" : 1
+            },
+            "Name" : "Player",
+            "TRANSFORM" : {
+               "IsIgnoreParentScale" : false,
+               "IsIgnoreParentTransform" : false,
+               "RelativePos" : [ 2000.0, 0.0, 2000.0 ],
+               "RelativeRotation" : [ 0.0, 0.0, 0.0 ],
+               "RelativeScale" : [ 40.0, 40.0, 40.0 ]
+            }
+         },
+         "ScriptCount" : 7,
+         "ScriptName" : [
+            "CPlayerScript",
+            "CPlayerIdle",
+            "CPlayerMove",
+            "CPlayerRoll",
+            "CPlayerRun",
+            "CPlayerFire",
+            "CPlayerFire"
+         ]
+      }
+   },
+   "Layer3Info" : {
+      "Name" : "P_Collider",
+      "ObjCount" : 0
+   },
+   "Layer4Info" : {
+      "Name" : "Monster",
+      "ObjCount" : 0
+   },
+   "Layer5Info" : {
+      "Name" : "M_Collider",
+      "ObjCount" : 0
+   },
+   "Layer6Info" : {
+      "Name" : "Object",
+      "ObjCount" : 0
+   },
+   "Layer7Info" : {
+      "Name" : "MonAtkCollision",
+      "ObjCount" : 0
+   },
+   "Name" : ""
+}
